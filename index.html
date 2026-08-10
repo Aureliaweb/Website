@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelia | Full-Stack Software Engineering & Development Portfolio</title>
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Welcome to Aurelia. Founded by Sahil Chavan and led by Lead Developer Avantika Raskar, offering custom web apps, machine learning models, and enterprise software systems.">
+    <meta name="keywords" content="Aurelia, Software Engineering, Sahil Chavan, Avantika Raskar, React.js, Node.js, Python, Machine Learning, Freelance Developer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Glow Blob 1 -->
+    <div class="glow-blob blob-1"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="nav-brand">
+                <div class="brand-text">
+                    <span class="brand-name" style="font-size: 1.8rem; font-weight: 800; letter-spacing: 1.5px; color: #dfb76c;">Aurelia</span>
+                </div>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#sectors" class="nav-link">Sectors</a></li>
+                <li><a href="#services" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="tel:+919324661717" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content" style="max-width:800px; margin: 0 auto; text-align:center;">
+                <div class="hero-badge" style="margin: 0 auto 24px auto;">
+                    <i class="fas fa-code"></i> Full-Stack Software Developer
+                </div>
+                <h1 class="hero-title" style="font-size:4.5rem; line-height:1.2; margin-bottom:24px;"><span>Aurelia</span></h1>
+                <p class="hero-desc" style="max-width:650px; margin:0 auto 40px auto; font-size:1.25rem;">Custom web applications, machine learning models, and enterprise systems to help businesses, startups, and NGOs scale.</p>
+                <div class="hero-btns" style="justify-content:center;">
+                    <a href="#services" class="btn btn-primary">View My Projects <i class="fas fa-arrow-down"></i></a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me & Leadership Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="about-split-container">
+                <!-- Left Side: About Me -->
+                <div class="about-split-left">
+                    <!-- Concentric circles decoration -->
+                    <div class="about-circle-deco-1"></div>
+                    <div class="about-circle-deco-2"></div>
+                    <div class="about-circle-deco-3"></div>
+                    
+                    <!-- Curved background mask overlay -->
+                    <div class="about-split-curve"></div>
+                    
+                    <!-- Content Wrapper -->
+                    <div class="about-split-left-content">
+                        <h2>About Aurelia</h2>
+                        <p>Aurelia is a premier software engineering firm led by <strong>Sahil Chavan</strong> (Founder & Managing Director) and driven by <strong>Avantika Raskar</strong> (Lead Project Developer). We build high-performance, user-centric software solutions tailored for companies, startups, and NGOs.</p>
+                        <p style="margin-top: 15px;">Whether designing custom ordering applications, training machine learning models for predictive insights, or crafting enterprise MIS dashboards, our team focuses on delivering clean, robust, and scalable code that achieves business goals.</p>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Leadership Team -->
+                <div class="about-split-right">
+                    <!-- Bottom-right concentric arcs decoration -->
+                    <div class="about-circle-deco-bottom"></div>
+                    <div class="about-circle-deco-bottom-2"></div>
+                    
+                    <h2 class="split-right-title">Leadership & <span>Team</span></h2>
+                    
+                    <!-- List Item 1: Sahil Chavan -->
+                    <div class="split-list-item">
+                        <div class="split-list-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="split-list-text">
+                            <h3>Sahil Chavan</h3>
+                            <p style="color: #dfb76c; font-weight: 600; font-size: 0.9rem;">Founder & Managing Director</p>
+                            <p>Directing strategic growth, client operations, partnership development, and corporate management.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- List Item 2: Avantika Raskar -->
+                    <div class="split-list-item">
+                        <div class="split-list-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="split-list-text">
+                            <h3>Avantika Raskar</h3>
+                            <p style="color: #dfb76c; font-weight: 600; font-size: 0.9rem;">Lead Project Developer</p>
+                            <p>Building core project architectures, full-stack applications, machine learning systems, and NGO simulators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Languages & Skills Section -->
+    <section id="skills" class="skills-section section-padding" style="background: rgba(12, 12, 12, 0.7); border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 40px;">
+                <h2 class="section-title">Technical Expertise & Languages</h2>
+                <p class="section-subtitle">Programming languages, frameworks, AI/ML tools, and databases used across our engineering projects.</p>
+            </div>
+
+            <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px;">
+                <!-- Skill Category 1: Artificial Intelligence -->
+                <div class="skill-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 28px 24px; border: 2.5px solid rgba(223, 183, 108, 0.4);">
+                    <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(223, 183, 108, 0.15); color: #dfb76c; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 16px;">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.3rem; margin-bottom: 12px;">Artificial Intelligence</h3>
+                    <ul style="list-style: none; padding: 0; color: #cbd5e0; font-size: 0.93rem; line-height: 1.8;">
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Predictive Analytics</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Risk Estimation Engines</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Mathematical Solvers</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Automated Simulators</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Category 2: Machine Learning -->
+                <div class="skill-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 28px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35);">
+                    <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 16px;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.3rem; margin-bottom: 12px;">Machine Learning</h3>
+                    <ul style="list-style: none; padding: 0; color: #cbd5e0; font-size: 0.93rem; line-height: 1.8;">
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Scikit-learn & Python</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Regression & Classification</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Random Forest & Boosting</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Pandas & NumPy Pipeline</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Category 3: Languages & Frameworks -->
+                <div class="skill-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 28px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35);">
+                    <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 16px;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.3rem; margin-bottom: 12px;">Languages & Frameworks</h3>
+                    <ul style="list-style: none; padding: 0; color: #cbd5e0; font-size: 0.93rem; line-height: 1.8;">
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> React.js (Frontend Framework)</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Node.js (Backend Runtime)</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Python (Flask / Data Science)</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> JavaScript (ES6+) / HTML5 / CSS3</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> C / C++ / Java Logic</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Category 4: Databases & Infrastructure -->
+                <div class="skill-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 28px 24px; border: 2.5px solid rgba(223, 183, 108, 0.4);">
+                    <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(223, 183, 108, 0.15); color: #dfb76c; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 16px;">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.3rem; margin-bottom: 12px;">Databases & APIs</h3>
+                    <ul style="list-style: none; padding: 0; color: #cbd5e0; font-size: 0.93rem; line-height: 1.8;">
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> MySQL & PostgreSQL</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> MongoDB NoSQL</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> RESTful API Engineering</li>
+                        <li><i class="fas fa-check" style="color:#dfb76c; margin-right:8px;"></i> Role Access Control (RBAC)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectors We Empower Section -->
+    <section id="sectors" class="sectors-section section-padding" style="background: rgba(10, 10, 10, 0.85); border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 48px;">
+                <h2 class="section-title">Sectors We Empower</h2>
+                <p class="section-subtitle">Delivering specialized freelance software engineering, web portals, and custom automation systems across diverse industries.</p>
+            </div>
+
+            <div class="sectors-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 28px;">
+                
+                <!-- Sector 1: Corporate & Enterprise -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(223, 183, 108, 0.4); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(223, 183, 108, 0.15); color: #dfb76c; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">Corporate & Enterprise</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Custom Management Information Systems (MIS), employee reporting dashboards, automated document workflows, and enterprise databases.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> ERP / MIS Systems</span>
+                </div>
+
+                <!-- Sector 2: Shops & E-Commerce Retail -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">Shops & E-Commerce</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Online ordering websites, digital product catalogs, live inventory tracking, POS checkout integration, and customer loyalty portals.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> Digital Ordering & Catalogs</span>
+                </div>
+
+                <!-- Sector 3: BPO & Call Centers -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">BPOs & Call Centers</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Agent performance trackers, call logs analytics, automated ticket generation, shift rosters, and client CRM management software.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> CRM & Performance Logs</span>
+                </div>
+
+                <!-- Sector 4: Colleges & Universities -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(223, 183, 108, 0.4); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(223, 183, 108, 0.15); color: #dfb76c; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">Colleges & Universities</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Career counseling portals, student exam portals with simulator engines, project evaluation platforms, and campus placement tracking.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> Academic & Exam Portals</span>
+                </div>
+
+                <!-- Sector 5: Schools & Academies -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">Schools & Academies</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Interactive math equation solvers, digital report cards, parent-teacher communication portals, and learning management tools.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> Learning Tools & Solvers</span>
+                </div>
+
+                <!-- Sector 6: NGOs & Non-Profits -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-hands-holding-child"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">NGOs & Non-Profits</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Skill assessment examination portals, volunteer management databases, donor tracking dashboards, and community outreach tools.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> Outreach & Exam Systems</span>
+                </div>
+
+                <!-- Sector 7: Healthcare & Clinics -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(223, 183, 108, 0.4); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(223, 183, 108, 0.15); color: #dfb76c; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-hospital-user"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">Healthcare & Clinics</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">Maternity trimester trackers, patient appointment scheduling, clinical risk assessment software, and health record management.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> Patient & Care Trackers</span>
+                </div>
+
+                <!-- Sector 8: Startups & Tech Ventures -->
+                <div class="sector-card" style="background: rgba(20, 20, 20, 0.45); backdrop-filter: blur(8px); border-radius: 20px; padding: 32px 24px; border: 2.5px solid rgba(255, 255, 255, 0.35); text-align: left;">
+                    <div style="width: 56px; height: 56px; border-radius: 14px; background: rgba(255, 255, 255, 0.1); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px;">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 style="color: #ffffff; font-size: 1.35rem; margin-bottom: 10px;">Startups & Tech Ventures</h3>
+                    <p style="color: #a0aec0; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">MVP development, Machine Learning price prediction models, AI integration, custom SaaS web apps, and modern landing platforms.</p>
+                    <span style="color: #dfb76c; font-size: 0.85rem; font-weight: 600;"><i class="fas fa-check-circle"></i> Full-Stack MVPs & ML Models</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="services" class="services-section section-padding">
+        <!-- Glow Blob 2 -->
+        <div class="glow-blob blob-2"></div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Our Work & Projects</h2>
+                <p class="section-subtitle">Click on any project card below to view detailed specs, features, and technology breakdowns.</p>
+            </div>
+            
+            <div class="services-kpi-grid">
+                <!-- Project 1: Restaurant Services -->
+                <a href="restaurant/index.html" class="kpi-card" data-project="restaurant-services">
+                    <div class="kpi-header">
+                        <div class="kpi-icon-wrapper"><i class="fas fa-utensils"></i></div>
+                        <span class="kpi-badge">E-Commerce</span>
+                    </div>
+                    <h3 class="kpi-title">Restaurant Services</h3>
+                    <p class="kpi-subtitle">Fine Dining Digital Experience</p>
+                    <p class="kpi-desc">A premium restaurant website — The Golden Fork — with online ordering, digital menu, table reservations, catering & event management, and franchise portal. Full multi-page experience.</p>
+                    <div class="kpi-stat-box">
+                        <div class="kpi-number">6+</div>
+                        <div class="kpi-label">Interactive<br>Pages</div>
+                    </div>
+                    <div class="kpi-action">
+                        Launch Live Website <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </a>
+
+                
+                <!-- Project 3: Maternity Management System -->
+                <a href="https://maternity-system.vercel.app/"
+   class="kpi-card"
+   target="_blank"
+   rel="noopener noreferrer">
+                    <div class="kpi-header">
+                        <div class="kpi-icon-wrapper"><i class="fas fa-baby"></i></div>
+                        <span class="kpi-badge">Health-Tech</span>
+                    </div>
+                    <h3 class="kpi-title">Maternity Monitor</h3>
+                    <p class="kpi-subtitle">Trimester Tracking Care Portal</p>
+                    <p class="kpi-desc">A care tracker helping pregnant women monitor trimesters, estimate exact delivery dates (day, month), vital stats, and compute clinical risk factors.</p>
+                    <div class="kpi-stat-box">
+                        <div class="kpi-number">100%</div>
+                        <div class="kpi-label">Trimester Detail<br>Knowledge Base</div>
+                    </div>
+                    <div class="kpi-action">
+                        Click for Project Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Project 4: Exam Portal System -->
+                <a href="https://exam-portal-eight-tau.vercel.app/"
+   class="kpi-card"
+   data-project="exam-portal"
+   target="_blank"
+   rel="noopener noreferrer">
+                    <div class="kpi-header">
+                        <div class="kpi-icon-wrapper"><i class="fas fa-graduation-cap"></i></div>
+                        <span class="kpi-badge">Education & NGOs</span>
+                    </div>
+                    <h3 class="kpi-title">NGO Exam Portal</h3>
+                    <p class="kpi-subtitle">Simulator-Based Assessment System</p>
+                    <p class="kpi-desc">A comprehensive assessment platform featuring Admin, Teacher, and Student roles, integrated with a code/action simulator to run practical exams.</p>
+                    <div class="kpi-stat-box">
+                        <div class="kpi-number">10k+</div>
+                        <div class="kpi-label">Student Exams<br>Conducted</div>
+                    </div>
+                    <div class="kpi-action">
+                        Click for Project Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Project 5: MIS System -->
+                <div class="kpi-card" data-project="mis-system" style="cursor: pointer;">
+                    <div class="kpi-header">
+                        <div class="kpi-icon-wrapper"><i class="fas fa-database"></i></div>
+                        <span class="kpi-badge">Enterprise Management</span>
+                    </div>
+                    <h3 class="kpi-title">Multi-Tenant MIS</h3>
+                    <p class="kpi-subtitle">Select Option: Corporate MIS or NGO-MIS</p>
+                    <p class="kpi-desc">An organization-wide management information system with dedicated operational models for Corporate Enterprises and NGO Non-Profits.</p>
+                    <div style="display: flex; gap: 10px; margin: 14px 0; flex-wrap: wrap;">
+                        <a href="https://corporate-mis.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" style="font-size: 0.82rem; padding: 6px 14px; border-radius: 20px; text-decoration: none;" onclick="event.stopPropagation();">
+                            <i class="fas fa-building"></i> Corporate MIS <i class="fas fa-external-link-alt" style="font-size:0.75rem; margin-left:4px;"></i>
+                        </a>
+                        <a href="https://ngo-mis.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" style="font-size: 0.82rem; padding: 6px 14px; border-radius: 20px; text-decoration: none;" onclick="event.stopPropagation();">
+                            <i class="fas fa-hands-holding-child"></i> NGO-MIS <i class="fas fa-external-link-alt" style="font-size:0.75rem; margin-left:4px;"></i>
+                        </a>
+                    </div>
+                    <div class="kpi-stat-box">
+                        <div class="kpi-number">2 Hosted Sites</div>
+                        <div class="kpi-label">Live Vercel Applications<br>Corporate & NGO MIS</div>
+                    </div>
+                    <div class="kpi-action">
+                        Click Card for Specs & Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Project 6: Birthday Celebration Maker -->
+                <a href="javascript:void(0)" class="kpi-card" data-project="birthday-maker">
+                    <div class="kpi-header">
+                        <div class="kpi-icon-wrapper"><i class="fas fa-cake-candles"></i></div>
+                        <span class="kpi-badge">Event Tech</span>
+                    </div>
+                    <h3 class="kpi-title">Birthday Celebration Maker</h3>
+                    <p class="kpi-subtitle">Personalized Memory Portal</p>
+                    <p class="kpi-desc">A custom interactive platform allowing clients to create personalized event websites with countdown timers, photo timelines, and guest wishes.</p>
+                    <div class="kpi-stat-box">
+                        <div class="kpi-number">100%</div>
+                        <div class="kpi-label">Custom Memory<br>Experiences</div>
+                    </div>
+                    <div class="kpi-action">
+                        Click for Project Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                <!-- Project 7: Career Guidance Portal -->
+                <a href="https://career-guidance-azure.vercel.app/"
+   class="kpi-card"
+   target="_blank"
+   rel="noopener noreferrer">
+                    <div class="kpi-header">
+                        <div class="kpi-icon-wrapper"><i class="fas fa-compass"></i></div>
+                        <span class="kpi-badge">EdTech</span>
+                    </div>
+                    <h3 class="kpi-title">Career Guidance Portal</h3>
+                    <p class="kpi-subtitle">Stream & Aptitude Advisory</p>
+                    <p class="kpi-desc">A career path advisory website featuring interactive aptitude tests, stream recommendation engines, field roadmaps, and mentor tools.</p>
+                    <div class="kpi-stat-box">
+                        <div class="kpi-number">95%</div>
+                        <div class="kpi-label">User Stream<br>Satisfaction</div>
+                    </div>
+                    <div class="kpi-action">
+                        Click for Project Details <i class="fas fa-arrow-right"></i>
+                    </div>
+                </a>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us & Feedback Section -->
+    <section id="contact" class="contact-section section-padding">
+        <!-- Glow Blob 4 -->
+        <div class="glow-blob blob-4"></div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Hire Us & Project Inquiry</h2>
+                <p class="section-subtitle">Have a project or need a custom software solution built? Contact our team directly or submit your project details below.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact info panel -->
+                <div class="contact-info-panel">
+                    
+                    <!-- Direct Call Card -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="contact-card-content">
+                            <h3>Direct Call</h3>
+                            <p>Call us directly to discuss project requirements or ask for custom quotes.</p>
+                            <a href="tel:+919324661717">+91 93246 61717</a>
+                        </div>
+                    </div>
+
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-card-content">
+                            <h3>Email Us</h3>
+                            <p>Send your queries or project proposals directly to our inbox.</p>
+                            <a href="mailto:aureliagroup.contact@gmail.com?subject=Aurelia%20Project%20Inquiry">aureliagroup.contact@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- Leadership Contact Cards -->
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="contact-card-content">
+                            <h3>Sahil Chavan</h3>
+                            <p>Founder & Managing Director</p>
+                            <a href="tel:+919324661717" style="font-size:0.95rem; font-weight:600;"><i class="fas fa-phone"></i> +91 93246 61717</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="contact-card-content">
+                            <h3>Avantika Raskar</h3>
+                            <p>Lead Project Developer & Software Engineer</p>
+                            <a href="mailto:aureliagroup.contact@gmail.com" style="font-size:0.9rem; font-weight:600;"><i class="fas fa-envelope"></i> Development Lead</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="margin-bottom:12px; font-weight:600;">Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form container with tabs -->
+                <div class="form-container">
+                    <div class="form-tabs">
+                        <button class="form-tab-btn active" data-tab="contact">Book / Inquire</button>
+                        <button class="form-tab-btn" data-tab="feedback">Leave Feedback</button>
+                    </div>
+
+                    <!-- Contact/Inquiry Form Pane -->
+                    <div id="contact-pane" class="form-pane active">
+                        <div id="contact-alert" class="form-alert"></div>
+                        <form id="contact-form-el" action="https://formsubmit.co/ajax/aureliagroup.contact@gmail.com" method="POST">
+                            <input type="hidden" name="_subject" value="New Aurelia Portfolio Inquiry">
+                            <div class="form-group">
+                                <label for="contact-name">Full Name</label>
+                                <input type="text" id="contact-name" name="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                                <div class="form-group">
+                                    <label for="contact-phone">Phone Number</label>
+                                    <input type="tel" id="contact-phone" name="phone" class="form-control" placeholder="Your phone number" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email">Email Address</label>
+                                    <input type="email" id="contact-email" name="email" class="form-control" placeholder="Your email address" required>
+                                </div>
+                            </div>
+                            <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                                <div class="form-group">
+                                    <label for="contact-type">Service Required / Project Name</label>
+                                    <input type="text" id="contact-type" name="service" class="form-control" placeholder="e.g. Coffee Shop Website, MIS System, Custom App..." required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-capacity">Project Timeline / Scope</label>
+                                    <input type="text" id="contact-capacity" name="capacity" class="form-control" placeholder="e.g. 1 Month, 2-3 Weeks, Custom Scope">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message">Requirements / Project Details</label>
+                                <textarea id="contact-message" name="message" class="form-control" placeholder="Please describe your project requirements, features needed, or target timeline..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width:100%;">Submit Project Inquiry <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Feedback Form Pane -->
+                    <div id="feedback-pane" class="form-pane">
+                        <div id="feedback-alert" class="form-alert"></div>
+                        <form id="feedback-form-el" action="https://formsubmit.co/ajax/aureliagroup.contact@gmail.com" method="POST">
+                            <input type="hidden" name="_subject" value="New Aurelia Client Feedback">
+                            <div class="form-group">
+                                <label for="feedback-name">Your Name</label>
+                                <input type="text" id="feedback-name" name="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                            <div class="rating-group">
+                                <label>Your Rating</label>
+                                <input type="hidden" id="feedback-rating" name="rating" value="5">
+                                <div class="rating-stars">
+                                    <button class="star-btn active" data-value="1" aria-label="1 Star"><i class="fas fa-star"></i></button>
+                                    <button class="star-btn active" data-value="2" aria-label="2 Stars"><i class="fas fa-star"></i></button>
+                                    <button class="star-btn active" data-value="3" aria-label="3 Stars"><i class="fas fa-star"></i></button>
+                                    <button class="star-btn active" data-value="4" aria-label="4 Stars"><i class="fas fa-star"></i></button>
+                                    <button class="star-btn active" data-value="5" aria-label="5 Stars"><i class="fas fa-star"></i></button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="feedback-comments">Comments & Review</label>
+                                <textarea id="feedback-comments" name="comments" class="form-control" placeholder="Tell us about your experience working with Aurelia..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width:100%;">Submit Feedback <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="nav-brand" style="margin-bottom: 16px;">
+                        <div class="brand-text">
+                            <span class="brand-name" style="font-size: 1.8rem; font-weight: 800; color: #dfb76c;">Aurelia</span>
+                        </div>
+                    </a>
+                    <p style="color: #a0aec0; margin-bottom: 20px; line-height: 1.6;">High-performance software engineering, web application development, machine learning, and enterprise management solutions.</p>
+                    <p style="color: #dfb76c; font-size: 0.9rem; font-weight: 600;">Leadership: Sahil Chavan (Founder & MD) | Avantika Raskar (Lead Developer)</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Aurelia</a></li>
+                        <li><a href="#services">Our Projects</a></li>
+                        <li><a href="#contact">Hire Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919324661717">+91 93246 61717</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:aureliagroup.contact@gmail.com">aureliagroup.contact@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 9:00 AM - 7:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aurelia. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Detail Modal Popup -->
+    <div id="project-modal" class="project-modal" aria-hidden="true">
+        <div class="project-modal-backdrop"></div>
+        <div class="project-modal-content">
+            <button class="project-modal-close" aria-label="Close Modal">&times;</button>
+            <div class="project-modal-header">
+                <span id="modal-badge" class="kpi-badge">Category</span>
+                <h2 id="modal-title" class="project-modal-title">Project Title</h2>
+                <p id="modal-subtitle" class="project-modal-subtitle">Subheading</p>
+            </div>
+            
+            <!-- Dual Option Selector for MIS System -->
+            <div id="modal-mis-selector" class="mis-option-selector" style="display: none;">
+                <button type="button" class="mis-option-btn active" id="btn-corporate-mis" data-mis-type="corporate">
+                    <i class="fas fa-building"></i> Corporate MIS
+                </button>
+                <button type="button" class="mis-option-btn" id="btn-ngo-mis" data-mis-type="ngo">
+                    <i class="fas fa-hands-holding-child"></i> NGO-MIS
+                </button>
+            </div>
+            <div class="project-modal-body">
+                <div class="modal-section">
+                    <h4><i class="fas fa-info-circle" style="color:#dfb76c;"></i> Project Overview</h4>
+                    <p id="modal-overview">Detailed description...</p>
+                </div>
+                <div class="modal-section">
+                    <h4><i class="fas fa-list-check" style="color:#dfb76c;"></i> Key Features & System Capabilities</h4>
+                    <ul id="modal-features" class="modal-features-list">
+                        <!-- Features populated by JS -->
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h4><i class="fas fa-layer-group" style="color:#dfb76c;"></i> Technologies Used</h4>
+                    <div id="modal-tags" class="modal-tags-container">
+                        <!-- Tags populated by JS -->
+                    </div>
+                </div>
+                <div class="modal-impact-box">
+                    <span class="impact-label"><i class="fas fa-trophy" style="color:#dfb76c;"></i> Impact / Key Metric:</span>
+                    <strong id="modal-impact">Metrics here</strong>
+                </div>
+            </div>
+            <div class="project-modal-footer">
+                <button id="modal-inquire-btn" class="btn btn-primary" style="width:100%;">Inquire / Request Custom Solution <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
